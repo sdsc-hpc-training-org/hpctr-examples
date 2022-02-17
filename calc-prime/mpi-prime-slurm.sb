@@ -1,0 +1,32 @@
+#!/bin/bash
+#SBATCH --job-name="mpi_prime"
+#SBATCH --output="mpi_prime.%j.%N.out"
+####SBATCH --partition=compute
+#SBATCH --partition=debug
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=24
+#SBATCH --export=ALL
+#SBATCH -t 00:25:00
+#SBATCH -A use300
+
+#This job runs with 1 node, 24 cores per node for a total of 24 cores.
+## Environment
+module purge
+module load slurm
+module load cpu
+module load gcc/10.2.0
+module load openmpi/4.0.4
+
+## echo job name and id:
+echo "SLURM_JOB_NAME:  $SLURM_JOB_NAME"
+echo "SLURM_JOB_ID:    $SLURM_JOB_ID"
+d=`date`
+echo "DATE:  $d"
+echo "Var NHI:  $NHI"
+
+## Use srun to run the job, pass variable to code
+## default N_HI=262144
+##srun --mpi=pmi2 -n 24 --cpu-bind=rank ./mpi_prime  
+##srun --mpi=pmi2 -n 24 --cpu-bind=rank ./mpi_prime  300000
+srun --mpi=pmi2 -n 24 --cpu-bind=rank ./mpi_prime  $NHI
+

@@ -1,0 +1,34 @@
+28 January 2022 12:16:55 PM
+
+PRIME_MPI
+  C/MPI version
+
+  An MPI example program to count the number of primes.
+  The number of processes is 24
+
+         N        Pi          Time
+
+         1         0        0.008910
+         2         1        0.005792
+         4         2        0.000004
+         8         4        0.000003
+        16         6        0.000003
+        32        11        0.000003
+        64        18        0.000003
+       128        31        0.000004
+       256        54        0.000511
+       512        97        0.000017
+      1024       172        0.000592
+      2048       309        0.000178
+      4096       564        0.000615
+      8192      1028        0.002213
+     16384      1900        0.008333
+     32768      3512        0.030223
+     65536      6542        0.112805
+    131072     12251        0.519074
+    262144     23000        1.571810
+
+PRIME_MPI - Master process:
+  Normal end of execution.
+
+28 January 2022 12:16:57 PM

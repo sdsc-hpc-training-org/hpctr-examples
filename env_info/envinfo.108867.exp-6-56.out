@@ -1,0 +1,12 @@
+----------------------------------
+hostname=  exp-6-56
+date=  Wed Oct 7 23:45:43 PDT 2020
+whoami=  mthomas
+pwd=  /home/mthomas/DEMO/ENV_INFO
+
+Currently Loaded Modules:
+  1) slurm/expanse/20.02.3   2) cpu/1.0
+
+ 
+
+module list= 

@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --job-name="dgemm_mat_mul"
+#SBATCH --output="dgemm_mat_mul.%j.%N.out"
+####SBATCH --partition=compute
+#SBATCH --partition=debug
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=64
+#SBATCH --mem=8G
+#SBATCH --account=use300
+#SBATCH --export=ALL
+#SBATCH -t 00:10:00
+
+#This job runs with 1 nodes, 128 cores per node 
+## Environment
+module purge
+module load slurm
+module load gpu
+module load intel 
+module load mvapich2 
+module load intel-mkl
+
+## Use srun to run the job
+
+#srun --mpi=pmi2 -n 256 --cpu-bind=rank dgemm_mat_mul
+srun --mpi=pmi2 -n 64 --cpu-bind=rank ./dgemm_mat_mul

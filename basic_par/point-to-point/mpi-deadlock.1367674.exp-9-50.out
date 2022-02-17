@@ -1,0 +1,12 @@
+slurmstepd: error: *** JOB 1367674 ON exp-9-50 CANCELLED AT 2021-02-26T01:19:56 DUE TO TIME LIMIT ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[23134,0],0] on node exp-9-50
+  Remote daemon: [[23134,0],1] on node exp-9-51
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------

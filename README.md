@@ -1,2 +1,6 @@
-# hpctr-examples
-repository for HPC Training example code used by training presentations, tutorials, webinars and documentation
+# SDSC HPC Training Repo:  hpctr-examples
+
+Repository for example test codes used in training
+
+## Last tested:  Jan 28, 2022, on Expanse
+

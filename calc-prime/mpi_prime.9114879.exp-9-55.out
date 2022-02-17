@@ -1,0 +1,39 @@
+SLURM_JOB_NAME:  mpi_prime
+SLURM_JOB_ID:    9114879
+DATE:  Fri Jan 28 14:54:54 PST 2022
+Var NHI:  250000
+The argument supplied is 250000
+28 January 2022 02:54:56 PM
+
+PRIME_MPI
+ n_hi= 250000
+  C/MPI version
+
+  An MPI example program to count the number of primes.
+  The number of processes is 24
+
+         N        Pi          Time
+
+         1         0        0.000361
+         2         1        0.000004
+         4         2        0.000768
+         8         4        0.000003
+        16         6        0.000003
+        32        11        0.000003
+        64        18        0.000003
+       128        31        0.000004
+       256        54        0.000554
+       512        97        0.000018
+      1024       172        0.000053
+      2048       309        0.000178
+      4096       564        0.000614
+      8192      1028        0.002203
+     16384      1900        0.008385
+     32768      3512        0.030101
+     65536      6542        0.110856
+    131072     12251        0.421177
+
+PRIME_MPI - Master process:
+  Normal end of execution.
+
+28 January 2022 02:54:57 PM

@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name="sample"
+#SBATCH --output="sample.%j.%N.out"
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=4
+#SBATCH --export=ALL
+#SBATCH -t 00:10:00
+
+#Generate a hostfile from the slurm node list
+export SLURM_NODEFILE=`generate_pbs_nodefile`
+
+## Compile
+## mpif90 -o sample.exe sample.f
+
+## Run code
+mpirun_rsh -export-all -hostfile $SLURM_NODEFILE -np 3 ./sample.exe

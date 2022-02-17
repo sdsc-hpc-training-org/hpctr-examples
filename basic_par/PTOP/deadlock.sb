@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name="deadlock"
+#SBATCH --output="deadlock.%j.%N.out"
+#SBATCH --partition=shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=2
+#SBATCH --export=ALL
+#SBATCH -t 00:01:00
+
+#Generate a hostfile from the slurm node list
+export SLURM_NODEFILE=`generate_pbs_nodefile`
+
+## Run test
+mpirun_rsh -hostfile $SLURM_NODEFILE -np 2 ./deadlock.exe
