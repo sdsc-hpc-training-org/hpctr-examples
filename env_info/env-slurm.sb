@@ -6,6 +6,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --export=ALL
 #SBATCH -t 00:1:00
+#SBATCH -A use300
 
 ## Environment
 module purge
@@ -18,9 +19,11 @@ echo "----------------------------------"
 echo "hostname= " `hostname` 
 echo "date= " `date` 
 echo "whoami= " `whoami` 
-echo "pwd= " `pwd` 
-echo "module list= " `module list` 
+echo "pwd= " `pwd`
+m=`module list` 
+echo "module list= $m" 
 echo "----------------------------------"
-echo "env= " `env` 
+e=`env`
+echo "env= $e" 
 echo "----------------------------------"
 
