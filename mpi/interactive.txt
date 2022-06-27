@@ -1,2 +1,0 @@
-srun --partition=debug  --pty --account=use300--nodes=1 --ntasks-per-node=4  --mem=8G -t 00:30:00 --wait=0 --export=ALL /bin/bash
-srun --pty --nodes=1 --ntasks-per-node=24 -p debug -t 00:30:00 --wait=0 --account=use300 /bin/bash
