@@ -3,6 +3,7 @@
 Repository for example test codes used in training
 
 ## Last tested:  Jan 28, 2022, on Expanse
+* currently testing: April, 2023
 
 ## Directory contents:
 ```
