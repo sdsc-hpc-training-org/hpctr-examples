@@ -1,0 +1,124 @@
+----------------------------------
+hostname=  exp-2-24
+date=  Tue Apr 11 00:37:44 PDT 2023
+whoami=  mthomas
+pwd=  /home/mthomas/hpctr-examples/env_info
+
+Currently Loaded Modules:
+  1) slurm/expanse/21.08.8   2) cpu/0.15.4
+
+ 
+
+module list= 
+----------------------------------
+env= LD_LIBRARY_PATH=/cm/shared/apps/slurm/current/lib64/slurm:/cm/shared/apps/slurm/current/lib64
+LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+SLURM_NODEID=0
+SLURM_TASK_PID=1452051
+__LMOD_REF_COUNT_PATH=/cm/shared/apps/slurm/current/sbin:1;/cm/shared/apps/slurm/current/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1
+_ModuleTable002_=WyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ic2x1cm0iLH0sfSxtcGF0aEE9eyIvY20vc2hhcmVkL2FwcHMvc3BhY2svY3B1L2xtb2QvbGludXgtY2VudG9zOC14ODZfNjQvQ29yZSIsIi9jbS9sb2NhbC9tb2R1bGVmaWxlcyIsIi9jbS9zaGFyZWQvYXBwcy9hY2Nlc3MvbW9kdWxlZmlsZXMiLCIvY20vc2hhcmVkL2FwcHMveHNlZGUvbW9kdWxlZmlsZXMiLCIvZXRjL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvTW9kdWxlcy9tb2R1bGVmaWxlcyIsIi9jbS9zaGFyZWQvbW9kdWxlZmlsZXMiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2NtL2xvY2FsL21vZHVsZWZpbGVzOi9jbS9zaGFyZWQv
+SSH_CONNECTION=75.80.45.222 63835 198.202.100.13 22
+SLURM_PRIO_PROCESS=0
+LANG=en_US.UTF-8
+SLURM_SUBMIT_DIR=/home/mthomas/hpctr-examples/env_info
+HISTCONTROL=ignoredups
+DISPLAY=localhost:32.0
+HOSTNAME=exp-2-24
+LMOD_SYSTEM_DEFAULT_MODULES=DefaultModules
+OLDPWD=/home/mthomas/hpctr-examples
+__LMOD_REF_COUNT__LMFILES_=/cm/local/modulefiles/slurm/expanse/21.08.8:1;/usr/share/modulefiles/cpu/0.15.4.lua:1
+ENVIRONMENT=BATCH
+SLURM_PROCID=0
+SLURM_JOB_GID=300
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/cm/shared/apps/slurm/current/lib64/slurm:1;/cm/shared/apps/slurm/current/lib64:1
+SLURMD_NODENAME=exp-2-24
+SLURM_TASKS_PER_NODE=1
+S_COLORS=auto
+which_declare=declare -f
+XDG_SESSION_ID=12162
+SLURM_NNODES=1
+USER=mthomas
+SLURM_NTASKS_PER_NODE=1
+__LMOD_REF_COUNT_MODULEPATH=/cm/shared/apps/spack/cpu/lmod/linux-centos8-x86_64/Core:1;/cm/local/modulefiles:1;/cm/shared/apps/access/modulefiles:1;/cm/shared/apps/xsede/modulefiles:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/share/Modules/modulefiles:1;/cm/shared/modulefiles:1
+__LMOD_REF_COUNT_LOADEDMODULES=slurm/expanse/21.08.8:1;cpu/0.15.4:1
+PWD=/home/mthomas/hpctr-examples/env_info
+ENABLE_LMOD=1
+SLURM_JOB_NODELIST=exp-2-24
+HOME=/home/mthomas
+SLURM_CLUSTER_NAME=expanse
+LMOD_COLORIZE=yes
+SLURM_NODELIST=exp-2-24
+SSH_CLIENT=75.80.45.222 63835 22
+LMOD_VERSION=8.2.4
+CPATH=/cm/shared/apps/slurm/current/include
+SLURM_NTASKS=1
+LMOD_SETTARG_CMD=:
+SLURM_JOB_CPUS_PER_NODE=128
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+SDSC_SPACK_STACK=cpu
+SLURM_TOPOLOGY_ADDR=exp-2-24
+SLURM_WORKING_CLUSTER=expanse:mgr1:6817:9472:109
+__LMOD_REF_COUNT_LIBRARY_PATH=/cm/shared/apps/slurm/current/lib64/slurm:1;/cm/shared/apps/slurm/current/lib64:1
+SLURM_JOB_NAME=envinfo
+TMPDIR=/tmp
+LIBRARY_PATH=/cm/shared/apps/slurm/current/lib64/slurm:/cm/shared/apps/slurm/current/lib64
+LMOD_sys=Linux
+SLURM_JOBID=21591486
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXtjcHU9e1siZm4iXT0iL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9jcHUvMC4xNS40Lmx1YSIsWyJmdWxsTmFtZSJdPSJjcHUvMC4xNS40IixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iY3B1Iix9LHNsdXJtPXtbImZuIl09Ii9jbS9sb2NhbC9tb2R1bGVmaWxlcy9zbHVybS9leHBhbnNlLzIxLjA4LjgiLFsiZnVsbE5hbWUiXT0ic2x1cm0vZXhwYW5zZS8yMS4wOC44IixbImxvYWRPcmRlciJdPTEscHJvcFQ9e30s
+SLURM_CONF=/cm/shared/apps/slurm/var/etc/expanse/slurm.conf
+LOADEDMODULES=slurm/expanse/21.08.8:cpu/0.15.4
+__LMOD_REF_COUNT_MANPATH=/cm/shared/apps/slurm/current/man:2;/usr/share/lmod/lmod/share/man:1;/usr/local/share/man:1;/usr/share/man:1;/cm/local/apps/environment-modules/current/share/man:1
+_ModuleTable003_=YXBwcy9hY2Nlc3MvbW9kdWxlZmlsZXM6L2NtL3NoYXJlZC9hcHBzL3hzZWRlL21vZHVsZWZpbGVzOi9jbS9zaGFyZWQvbW9kdWxlZmlsZXM6L2V0Yy9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvTW9kdWxlcy9tb2R1bGVmaWxlcyIsfQ==
+SLURM_NODE_ALIASES=(null)
+SLURM_JOB_QOS=normal-qos
+LMOD_ROOT=/usr/share/lmod
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+SSH_TTY=/dev/pts/260
+MAIL=/var/spool/mail/mthomas
+SLURM_CPUS_ON_NODE=128
+LMOD_arch=x86_64
+SLURM_JOB_NUM_NODES=1
+__Init_Default_Modules=1
+CMD_WLM_CLUSTER_NAME=expanse
+SLURM_MEM_PER_NODE=249325
+SHELL=/bin/bash
+TERM=xterm-256color
+SLURM_JOB_UID=15294
+_ModuleTable_Sz_=3
+__LMOD_REF_COUNT_CPATH=/cm/shared/apps/slurm/current/include:1
+SLURM_JOB_PARTITION=compute
+SLURM_JOB_USER=mthomas
+SLURM_NPROCS=1
+SHLVL=2
+SLURM_SUBMIT_HOST=login01
+SLURM_JOB_ACCOUNT=use300
+MANPATH=/cm/shared/apps/slurm/current/man:/usr/share/lmod/lmod/share/man::/usr/local/share/man:/usr/share/man:/cm/local/apps/environment-modules/current/share/man
+LMOD_PREPEND_BLOCK=normal
+MODULEPATH=/cm/shared/apps/spack/cpu/lmod/linux-centos8-x86_64/Core:/cm/local/modulefiles:/cm/shared/apps/access/modulefiles:/cm/shared/apps/xsede/modulefiles:/etc/modulefiles:/usr/share/modulefiles:/usr/share/Modules/modulefiles:/cm/shared/modulefiles
+GDK_BACKEND=x11
+SLURM_GTIDS=0
+LOGNAME=mthomas
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-vDP3j6d0aH,guid=46804683a7f603ea1d94f5d46434d560
+XDG_RUNTIME_DIR=/run/user/15294
+MODULEPATH_ROOT=/usr/share/modulefiles
+PATH=/cm/shared/apps/slurm/current/sbin:/cm/shared/apps/slurm/current/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+SLURM_JOB_ID=21591486
+_LMFILES_=/cm/local/modulefiles/slurm/expanse/21.08.8:/usr/share/modulefiles/cpu/0.15.4.lua
+MODULESHOME=/usr/share/lmod/lmod
+LMOD_SETTARG_FULL_SUPPORT=no
+HISTSIZE=1000
+LMOD_PKG=/usr/share/lmod/lmod
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+SLURM_LOCALID=0
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_FULL_SETTARG_SUPPORT=no
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"
+}
+BASH_FUNC_module%%=() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml%%=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+_=/usr/bin/env
+----------------------------------
