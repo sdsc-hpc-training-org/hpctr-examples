@@ -1,0 +1,19 @@
+----------------------------------
+hostname=  exp-2-48
+date=  Tue Apr 11 02:32:58 PDT 2023
+whoami=  mthomas
+pwd=  /home/mthomas/hpctr-examples/env_info
+
+Currently Loaded Modules:
+  1) slurm/expanse/21.08.8   2) cpu/0.15.4
+
+ 
+
+module list= 
+----------------------------------
+SLURM_JOB_NAME= env-vars-info
+SLURM_JOB_ID= 21591905
+SLURM_SUBMIT_HOST= login01
+SLURM_SUBMIT_DIR= /home/mthomas/hpctr-examples/env_info
+SLURM_JOB_NODELIST= exp-2-48
+----------------------------------
