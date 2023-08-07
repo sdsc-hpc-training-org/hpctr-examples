@@ -2,7 +2,7 @@
 
 [1] Load module file(s) into the shell environment
 module purge
-module load cpu
+module load cpu/0.15.4
 module load gcc
 module load mvapich2
 module load slurm
