@@ -9,7 +9,7 @@ module load openmpi/4.1.1
 mpicc -o mpi_prime mpi_prime.c 
 
 
-[2] Run:
+[2] Run as batch job:
 
     sbatch mpi-prime-slurm.sb
 
