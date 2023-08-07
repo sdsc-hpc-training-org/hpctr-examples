@@ -1,11 +1,11 @@
 # Checking your environment on HPC node:
 
-[1] load the right modules
+[1] Load module file(s) into the shell environment
 module purge
-module load slurm
 module load cpu
-module load gcc/10.2.0
-module load openmpi/4.0.4
+module load gcc
+module load mvapich2
+module load slurm
 
 [2] Run:
 

@@ -8,10 +8,12 @@
 #SBATCH -t 00:1:00
 #SBATCH -A use300
 
-## Environment
+##  Load module file(s) into the shell environment
 module purge
-module load slurm
 module load cpu
+module load gcc
+module load mvapich2
+module load slurm
 
 ##  just perform some basic unix commands
 
