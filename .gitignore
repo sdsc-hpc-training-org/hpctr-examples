@@ -2,9 +2,17 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+*.out
 # C extensions
 *.so
+
+basic_par/simple/hello_mpi
+env_info/envinfo.108867.exp-6-56.out
+mkl/mkl-mat-mul/dgemm_mat_mul/dgemm_mat_mul
+mpi/hello_mpi_f90
+cuda/addition/vector_add_gpu
+cuda/hello-device/
+cuda/hello-world/hello_world
 
 # Distribution / packaging
 .Python

@@ -7,6 +7,7 @@
 #SBATCH --export=ALL
 #SBATCH -t 00:04:00
 #SBATCH -A sds173
+####SBATCH -A sds184
 
 # This job runs with 3 nodes, and a total of 12 cores.
 ## Environment
@@ -15,7 +16,7 @@
  module load slurm
  module load cpu
  module load gcc/10.2.0
- module load openmpi/4.0.4
+ module load openmpi/4.1.1
 
 ## Use srun to run the job
 ##srun -n 12 --cpu-bind=rank ./hello_mpi
