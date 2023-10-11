@@ -6,12 +6,12 @@
 /* two distinct contexts.                                             */
 
 [1] Compile:
-
+#Env working: 10/11/2023 (MPT)
 module purge
-module load cpu
 module load slurm
-module load intel
-module load mvapich2
+module load cpu/0.15.4
+module load intel/19.1.1.217
+module load mvapich2/2.3.6
 module load intel-mkl
 
 ###############

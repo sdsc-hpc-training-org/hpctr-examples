@@ -7,18 +7,16 @@
 #SBATCH --mem=8G
 #SBATCH --account=use300
 #SBATCH --export=ALL
-#SBATCH -t 00:30:00
+#SBATCH -t 00:10:00
 
 #This job runs with 1 node, 4 cores per node for a total of 4 cores.
-## Environment
+## Environment - working 10/11/2023 [MPT]
 module purge
-module load cpu
 module load slurm
-module load intel
-module load mvapich2
+module load cpu/0.15.4
+module load intel/19.1.1.217
+module load mvapich2/2.3.6
 module load intel-mkl
 
 ## Use srun to run the job
-
-#srun --mpi=pmi2 -n 256 --cpu-bind=rank src/pdpttr_example
 srun --mpi=pmi2 -n 4 --cpu-bind=rank ./pdpttr.exe

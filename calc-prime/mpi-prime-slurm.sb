@@ -11,11 +11,6 @@
 #SBATCH -A use300
 
 #This job runs with 1 node, 24 cores per node for a total of 24 cores.
-## Environment
-###module purge
-###module load slurm
-###module load cpu
-###module load gcc/10.2.0
 
 module load cpu
 #Load module file(s) into the shell environment
