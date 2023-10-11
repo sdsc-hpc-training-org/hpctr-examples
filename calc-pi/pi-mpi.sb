@@ -1,0 +1,32 @@
+#!/bin/bash
+#SBATCH --job-name="pi_mpi"
+#SBATCH --output="pi_mpi.%j.%N.out"
+#SBATCH --partition=compute
+###SBATCH --partition=debug
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=24
+#SBATCH --mem=249325M 
+#SBATCH --export=ALL
+#SBATCH -t 00:05:00
+#SBATCH -A use300
+
+#This job runs with 1 node, 24 cores per node for a total of 24 cores.
+
+#Load module file(s) into the shell environment
+module purge
+module load slurm
+module load cpu/0.15.4  
+module load gcc/10.2.0
+module load openmpi/4.0.4
+
+
+## echo job name and id:
+echo "SLURM_JOB_NAME:  $SLURM_JOB_NAME"
+echo "SLURM_JOB_ID:    $SLURM_JOB_ID"
+d=`date`
+echo "DATE:  $d"
+
+## Use srun to run the job, pass variable to code
+srun --mpi=pmi2 -n 24 --cpu-bind=rank ./pi_mpi  
+##srun --mpi=pmi2 -n 2  ./pi_mpi  
+
