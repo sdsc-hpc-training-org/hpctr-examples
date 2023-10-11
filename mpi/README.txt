@@ -2,15 +2,20 @@
 
 module purge
 module load slurm
-module load cpu
+module load cpu/0.15.4  
 module load gcc/10.2.0
 module load openmpi/4.0.4
 
 mpif90 -o hello_mpi hello_mpi.f90
+or
+mpicc -o mpi_hello mpi_hello.c
+
 
 [2] Run using batch script:
 
 sbatch hellompi-slurm.sb
+OR
+sbatch mpi-hello.sb
 
 NOTE: for other compilers, replace "gcc"
 with the one you want to use.

@@ -2,6 +2,7 @@
 #SBATCH --job-name="envinfo"
 #SBATCH --output="envinfo.%j.%N.out"
 #SBATCH --partition=compute
+####SBATCH --partition=debug
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --export=ALL
