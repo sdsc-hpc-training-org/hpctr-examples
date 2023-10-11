@@ -1,5 +1,6 @@
 ### 
-
+# NOTE: this is a SERIAL CODE
+#
 [1] Compile:
 ## load module environemnt
 module purge

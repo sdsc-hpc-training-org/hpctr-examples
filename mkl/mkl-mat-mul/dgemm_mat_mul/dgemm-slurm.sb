@@ -21,5 +21,4 @@ module load intel-mkl
 
 ## Use srun to run the job
 
-#srun --mpi=pmi2 -n 256 --cpu-bind=rank dgemm_mat_mul
-srun --mpi=pmi2 -n 64 --cpu-bind=rank ./dgemm_mat_mul
+srun --mpi=pmi2 -n 1 --cpu-bind=rank ./dgemm_mat_mul
