@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --job-name="vector_add_gpu"
+#SBATCH --output="vector_add_gpu.%j.%N.out"
+#SBATCH --partition=gpu-shared
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gpus=1
+#SBATCH --account=use300
+#SBATCH -t 01:00:00
+
+#Environment
+module purge
+module load slurm
+module load gpu/0.15.4
+module load gcc/7.2.0
+module load cuda/11.0.2
+
+
+
+#Run the job
+./vector_add_gpu
+

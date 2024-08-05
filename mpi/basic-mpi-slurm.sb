@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --job-name="hello_mpi"
+#SBATCH --output="hello_mpi.%j.%N.out"
+#SBATCH --partition=debug
+#####SBATCH --partition=compute
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=64
+#SBATCH --mem=256GB
+#SBATCH --account=use300
+#SBATCH --export=ALL
+#SBATCH -t 00:05:00
+
+#This job runs with 1 nodes, 64 cores per node for a total of 256 tasks.
+
+module purge
+module load cpu
+#Load module file(s) into the shell environment
+module load gcc
+module load mvapich2
+module load slurm
+
+srun --mpi=pmi2 -n 64 hello_mpi
