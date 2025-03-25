@@ -1,21 +1,20 @@
 #!/bin/bash
 #SBATCH --job-name="hello_world"
+
 #SBATCH --output="hello_world.%j.%N.out"
-
-#SBATCH --partition=gpu
+#SBATCH --partition=gpu-shared
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
 #SBATCH --gpus=1
-
-#SBATCH --mem=377393M
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=93G
+####SBATCH --account=<<project*>>
 #SBATCH --account=use300
 #SBATCH --no-requeue
 #SBATCH -t 00:05:00
 
 module purge
-module load slurm
 module load gpu
-module load cuda
+module load slurm
 
-echo "$JobID= $SLURM_JOB_ID"
-./hello_world
+./hello_world 
