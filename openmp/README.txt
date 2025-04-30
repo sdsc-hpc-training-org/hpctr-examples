@@ -1,11 +1,9 @@
 [1] Compile:
 
-module purge
-module load slurm
-module load cpu
-module load aocc
+module reset
+module load gcc/10.2.0
 
-flang -fopenmp -o hello_openmp hello_openmp.f90
+gfortran -fopenmp -ffixed-form -o hello_openmp hello_openmp.f90
 
 [2] Run:
 
