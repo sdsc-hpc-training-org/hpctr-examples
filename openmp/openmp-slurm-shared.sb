@@ -7,14 +7,18 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=32G
 #SBATCH --export=ALL
-#SBATCH -t 01:30:00
+#SBATCH --account=use300
+#SBATCH -t 00:05:00
 
-# AOCC environment
+# setup environment
+module reset
+module load gcc/10.2.0
 
-module purge
-module load slurm
-module load cpu
-module load aocc
+##module purge
+##module load slurm
+##module load cpu/0.15.4
+##module load aocc
+##module load openmpi/4.0.4
 
 #SET the number of openmp threads
 export OMP_NUM_THREADS=16
