@@ -1,5 +1,8 @@
 # SDSC HPC Training Repo:  hpctr-examples
 
+CLONE: Command:
+srun –reservation=complecs_day2 --partition=shared  --pty --account=gue998 --nodes=1 --ntasks-per-node=4 --mem=8G -t 01:30:00 --wait=0 --export=ALL /bin/bash
+
 Repository for example test codes used in training
 
 ## Last tested:  Jan 28, 2022, on Expanse
