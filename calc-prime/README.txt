@@ -26,6 +26,13 @@ Request the interactive node using the "srun" command:
 srun --partition=debug  --pty --account=use300 --nodes=1 --ntasks-per-node=24  --mem=8G -t 00:30:00 --wait=0 --export=ALL /bin/bash
 
 Run the code using mpirun:
+
+module purge 
+module load slurm
+module load cpu
+module load gcc/10.2.0
+module load openmpi/4.1.1
+
 mpirun -n 64 ./mpi_prime 5000000
 
 Method [3b]
